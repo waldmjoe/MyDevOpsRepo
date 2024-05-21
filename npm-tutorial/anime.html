@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime.js Example</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '.square',
+            translateX: 250,
+            backgroundColor: '#00FF00',
+            borderRadius: ['0%', '50%'],
+            easing: 'easeInOutQuad',
+            duration: 2000
+        });
+    </script>
+</body>
+</html>

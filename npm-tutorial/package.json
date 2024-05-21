@@ -1,0 +1,23 @@
+{
+  "name": "mydevopsrepo",
+  "version": "1.0.0",
+  "description": "npm tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldmjoe/MyDevOpsRepo.git"
+  },
+  "author": "waldmjoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waldmjoe/MyDevOpsRepo/issues"
+  },
+  "homepage": "https://github.com/waldmjoe/MyDevOpsRepo#readme",
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "chart.js": "^4.4.1"
+  }
+}
